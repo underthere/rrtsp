@@ -1,0 +1,11 @@
+[package]
+name = "rrtsp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+url = "2.5"
+strum = { version = "0.26" , features = ["derive"]}
